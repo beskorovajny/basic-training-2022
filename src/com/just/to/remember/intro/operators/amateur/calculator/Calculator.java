@@ -1,6 +1,7 @@
 package com.just.to.remember.intro.operators.amateur.calculator;
 
 public class Calculator {
+    private Calculator(){}
     public static double sum(double first, double second) {
         return first + second;
     }
