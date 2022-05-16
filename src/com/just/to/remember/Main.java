@@ -1,5 +1,6 @@
 package com.just.to.remember;
 
+import com.just.to.remember.intro.operators.OpsPractice;
 import com.just.to.remember.intro.scaninfo.ScanPractice;
 import com.just.to.remember.intro.variables.Vars;
 import com.just.to.remember.utils.SimpleLogger;
@@ -28,5 +29,13 @@ public class Main {
         SimpleLogger.logToConsole(SEPARATOR);
         ScanPractice.eMailing();
         SimpleLogger.logToConsole(SEPARATOR);
+
+        // #3
+        SimpleLogger.logToConsole(SEPARATOR);
+        OpsPractice.doPow();
+        SimpleLogger.logToConsole(SEPARATOR);
+        OpsPractice.get24FormatTime();
+        SimpleLogger.logToConsole(SEPARATOR);
+
     }
 }

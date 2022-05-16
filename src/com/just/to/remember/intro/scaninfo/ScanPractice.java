@@ -7,38 +7,38 @@ import java.util.Scanner;
 public class ScanPractice {
     private static Scanner sc = new Scanner(System.in);
     public static void helloScan() {
-        SimpleLogger.logToConsole("Insert your name :");
+        SimpleLogger.logToConsole("Enter your name :");
         String name = sc.nextLine();
         SimpleLogger.logToConsole("Hello, " + name);
     }
     public static void tripleShow() {
-        SimpleLogger.logToConsole("Insert some message :");
+        SimpleLogger.logToConsole("Enter some message :");
         String inputStr = sc.nextLine();
         for (int i = 0; i < 3; i++) {
             SimpleLogger.logToConsole(inputStr);
         }
     }
     public static void shirtOrJacket() {
-        SimpleLogger.logToConsole("Insert today's temperature :");
+        SimpleLogger.logToConsole("Enter today's temperature :");
         int temperature = sc.nextInt();
         SimpleLogger.logToConsole("The temperature today is: " + temperature + " degrees");
     }
     public static void whatsTodayDate() {
-        SimpleLogger.logToConsole("Insert year :");
+        SimpleLogger.logToConsole("Enter year :");
         int year = sc.nextInt();
-        SimpleLogger.logToConsole("Insert month :");
+        SimpleLogger.logToConsole("Enter month :");
         int month = sc.nextInt();
-        SimpleLogger.logToConsole("Insert day :");
+        SimpleLogger.logToConsole("Enter day :");
         int day = sc.nextInt();
         SimpleLogger.logToConsole(String.format("%02d:%02d:%04d", day, month, year));
     }
     public static void eMailing() {
         sc.nextLine();
-        SimpleLogger.logToConsole("Insert your name :");
+        SimpleLogger.logToConsole("Enter your name :");
         String userName = sc.nextLine();
-        SimpleLogger.logToConsole("Insert assistant name :");
+        SimpleLogger.logToConsole("Enter assistant name :");
         String assistantName = sc.nextLine();
-        SimpleLogger.logToConsole("Insert messages count :");
+        SimpleLogger.logToConsole("Enter messages count :");
         int messageCount = sc.nextInt();
         SimpleLogger.logToConsole("Morning, " + userName +
                 ", it's your personal assistant " + assistantName +
